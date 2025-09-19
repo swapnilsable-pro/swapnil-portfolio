@@ -6,6 +6,7 @@ import WorkHistory from './components/WorkHistory';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Education from './components/Education';
+import Games from './components/Games';
 import Contact from './components/Contact';
 import useEasterEggs from './hooks/useEasterEggs';
 
@@ -75,6 +76,7 @@ function App() {
             <Skills />
             <Achievements />
             <Education />
+            <Games />
             <Contact />
             
             <div className="prompt-line final-prompt">
